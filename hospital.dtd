@@ -1,0 +1,28 @@
+<!ELEMENT healthcare (hospital, route)>
+<!ELEMENT hospital (patient+)>
+<!ELEMENT patient (id, name, age, gender, bloodGroup, admissionDate, disease, roomNumber)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT bloodGroup (#PCDATA)>
+<!ELEMENT admissionDate (#PCDATA)>
+<!ELEMENT disease (#PCDATA)>
+<!ELEMENT roomNumber (#PCDATA)>
+<!ELEMENT report (table)>
+<!ELEMENT table (tr+)>
+<!ELEMENT tr (th*, td*)>
+<!ELEMENT th (#PCDATA)>
+<!ELEMENT td (#PCDATA)>
+<!ELEMENT route (startPoint, endPoint, distance, duration)>
+<!ELEMENT startPoint (locationName, latitude, longitude)>
+<!ELEMENT endPoint (locationName, latitude, longitude)>
+<!ELEMENT locationName (#PCDATA)>
+<!ELEMENT latitude (#PCDATA)>
+<!ELEMENT longitude (#PCDATA)>
+<!ELEMENT distance (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+
+<!ATTLIST healthcare
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>

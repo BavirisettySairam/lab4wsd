@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="table.xsl"?>
+<!DOCTYPE healthcare SYSTEM "hospital.dtd">
+
+<healthcare xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hospital.xsd">
+    <hospital>
+        <patient>
+            <id>P10001</id>
+            <name>Arjun Patel</name>
+            <age>34</age>
+            <gender>Male</gender>
+            <bloodGroup>B+</bloodGroup>
+            <admissionDate>2024-08-10</admissionDate>
+            <disease>Hypertension</disease>
+            <roomNumber>201</roomNumber>
+        </patient>
+        <patient>
+            <id>P10002</id>
+            <name>Ritika Sharma</name>
+            <age>28</age>
+            <gender>Female</gender>
+            <bloodGroup>O+</bloodGroup>
+            <admissionDate>2024-08-11</admissionDate>
+            <disease>Diabetes</disease>
+            <roomNumber>202</roomNumber>
+        </patient>
+        <patient>
+            <id>P10003</id>
+            <name>Vikram Singh</name>
+            <age>45</age>
+            <gender>Male</gender>
+            <bloodGroup>A-</bloodGroup>
+            <admissionDate>2024-08-12</admissionDate>
+            <disease>Asthma</disease>
+            <roomNumber>203</roomNumber>
+        </patient>
+        <patient>
+            <id>P10004</id>
+            <name>Anjali Desai</name>
+            <age>52</age>
+            <gender>Female</gender>
+            <bloodGroup>AB+</bloodGroup>
+            <admissionDate>2024-08-13</admissionDate>
+            <disease>Arthritis</disease>
+            <roomNumber>204</roomNumber>
+        </patient>
+        <patient>
+            <id>P10005</id>
+            <name>Karan Mehta</name>
+            <age>60</age>
+            <gender>Male</gender>
+            <bloodGroup>O-</bloodGroup>
+            <admissionDate>2024-08-14</admissionDate>
+            <disease>Heart Disease</disease>
+            <roomNumber>205</roomNumber>
+        </patient>
+        <patient>
+            <id>P10006</id>
+            <name>Pooja Verma</name>
+            <age>38</age>
+            <gender>Female</gender>
+            <bloodGroup>B-</bloodGroup>
+            <admissionDate>2024-08-15</admissionDate>
+            <disease>Kidney Stone</disease>
+            <roomNumber>206</roomNumber>
+        </patient>
+        <patient>
+            <id>P10007</id>
+            <name>Rohan Gupta</name>
+            <age>29</age>
+            <gender>Male</gender>
+            <bloodGroup>A+</bloodGroup>
+            <admissionDate>2024-08-16</admissionDate>
+            <disease>Liver Cirrhosis</disease>
+            <roomNumber>207</roomNumber>
+        </patient>
+        <patient>
+            <id>P10008</id>
+            <name>Sakshi Rai</name>
+            <age>33</age>
+            <gender>Female</gender>
+            <bloodGroup>AB-</bloodGroup>
+            <admissionDate>2024-08-17</admissionDate>
+            <disease>Thyroid</disease>
+            <roomNumber>208</roomNumber>
+        </patient>
+        <patient>
+            <id>P10009</id>
+            <name>Deepak Rao</name>
+            <age>42</age>
+            <gender>Male</gender>
+            <bloodGroup>O+</bloodGroup>
+            <admissionDate>2024-08-18</admissionDate>
+            <disease>Stroke</disease>
+            <roomNumber>209</roomNumber>
+        </patient>
+        <patient>
+            <id>P10010</id>
+            <name>Sneha Iyer</name>
+            <age>36</age>
+            <gender>Female</gender>
+            <bloodGroup>B+</bloodGroup>
+            <admissionDate>2024-08-19</admissionDate>
+            <disease>Gallstones</disease>
+            <roomNumber>210</roomNumber>
+        </patient>
+    </hospital>
+    <route>
+        <startPoint>
+            <locationName>City Hospital</locationName>
+            <latitude>12.9715987</latitude>
+            <longitude>77.594566</longitude>
+        </startPoint>
+        <endPoint>
+            <locationName>Medical Store</locationName>
+            <latitude>12.935242</latitude>
+            <longitude>77.624216</longitude>
+        </endPoint>
+        <distance>5.4 km</distance>
+        <duration>15 minutes</duration>
+    </route>
+</healthcare>
